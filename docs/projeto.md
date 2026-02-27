@@ -1,1 +1,2 @@
 Este projeto tem como intuito a criação de uma plataforma para doação de alimentos e roupas,ele permite a conexão entre doadores e ONGs que ajudam pessoas necessitadas.
+As funcionalidades deste projeto foram documentadas em nível de História de Usuário utilizando o GitHub Projects. Elas podem ser visualizadas aqui: https://github.com/orgs/barao-maua/projects/11/views/2?template_dialog_tab=organization&custom_template=7
