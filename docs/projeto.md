@@ -1,10 +1,32 @@
-- Este projeto tem como intuito a criação de uma plataforma para doação de alimentos e roupas,ele permite a conexão entre doadores e ONGs que ajudam pessoas necessitadas.Sua descrição com detalhes pode ser lida no arquivo README.md.
+# 🍎 Projeto Doe+
+Este projeto foi desenvolvido como parte da disciplina de programação web para facilitar a intermediação de doações de alimentos e roupas entre doadores civis e ONGs parceiras.
 
-- As funcionalidades deste projeto foram documentadas em nível de História de Usuário utilizando o GitHub Projects. Elas podem ser visualizadas aqui: [Projeto no Github](https://github.com/orgs/barao-maua/projects/11/views/2?template_dialog_tab=organization&custom_template=7)
+---
 
-- Modelo de Dados (DER)
-*O diagrama abaixo representa a estrutura de Usuários, Doações e Organizações.E também pode ser visualizado pelo link: [Diagrama de banco de dados](https://dbdiagram.io/d/Projeto-Doe-69a218eba3f0aa31e15b210e)
+## 📌 Visão Geral
+A plataforma **Doe+** resolve a dificuldade logística de ONGs encontrarem doadores próximos, permitindo que itens essenciais cheguem rapidamente ao seu destino final.
 
-![diagrama_er.png](<Projeto Doe+.png>)
+* **Público-alvo:** Doadores individuais e Instituições Filantrópicas.
+* **Foco:** Combate à fome e assistência social.
 
--Protótipos de telas
+---
+
+## 📋 Planejamento e Funcionalidades
+Utilizamos as metodologias ágeis para documentar o escopo do projeto. Todas as funcionalidades foram descritas sob a ótica da experiência do usuário (User Stories).
+
+| Recurso | Descrição | Link de Acesso |
+| :--- | :--- | :--- |
+| **User Stories** | Documentação detalhada do que o sistema faz. | [Projeto do github](https://github.com/orgs/barao-maua/projects/11/views/2) |
+| **Modelagem** | Estrutura de tabelas e relacionamentos. | [Diagrama de dados](https://dbdiagram.io/d/Projeto-Doe-69a218eba3f0aa31e15b210e) |
+
+---
+
+## 🛠️ Arquitetura de Dados (DER)
+O arquivo `diagrama_er.png` contém a versão em alta resolução do modelo de dados
+
+![Diagrama de Dados](<Projeto Doe+.png>)
+
+---
+
+## 🎨 Protótipos de Interface
+*(Seção em desenvolvimento)* Em breve, os links do Figma ou prints das telas serão disponibilizados nesta seção.
