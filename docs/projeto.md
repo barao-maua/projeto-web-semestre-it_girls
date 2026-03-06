@@ -32,5 +32,9 @@ O arquivo `diagrama_der.png` contém a versão em alta resolução do modelo de 
 Dentro da pasta `imagens_prototipo` contém todas as imagens dos protótipos desenvolvidos.
 
 ![Tela Home](imagens_prototipo/home.png)
+![Tela Doação Alimentos](imagens_prototipo/doacao_alimento.png)
+![Tela Doação Roupas](imagens_prototipo/doacao_roupa.png)
+![Tela Solicitar Doação](imagens_prototipo/solicitar_doacao.png)
+![Tipo de Doação](imagens_prototipo/tipo_doacao.png)
 
-Aqui está o link do figma caso queira acessar [Link do Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
+Aqui está o link do figma para acessar também [Link do Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
