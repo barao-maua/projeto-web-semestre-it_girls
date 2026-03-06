@@ -31,18 +31,4 @@ O arquivo `diagrama_der.png` contém a versão em alta resolução do modelo de 
 ## 🎨 Protótipos de Interface
 Dentro da pasta `imagens_prototipo` contém todas as imagens dos protótipos desenvolvidos
 
-<<<<<<< HEAD
-[Tela Home](</projeto-web-semestre-it_girls/docs/imagens_prototipo/home.png>)
-[Tela Doação Alimentos](</projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_alimento.png>)
-[Tela Doação Roupa](</projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_roupa.png>)
-[Tela Solicitar Doação](</projeto-web-semestre-it_girls/docs/imagens_prototipo/solicitar_doacao.png>)
-[Tela Tipo Doação](</projeto-web-semestre-it_girls/docs/imagens_prototipo/tipo_doacao.png>)
-=======
-![Tela Home](/projeto-web-semestre-it_girls/docs/imagens_prototipo/home.png)
-![Tela Doação Alimentos](/projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_alimento.png)
-![Tela Doação Roupa](/projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_roupa.png)
-![Tela Solicitar Doação](/projeto-web-semestre-it_girls/docs/imagens_prototipo/solicitar_doacao.png)
-![Tela Tipo Doação](/projeto-web-semestre-it_girls/docs/imagens_prototipo/tipo_doacao.png)
->>>>>>> a8fde1cd2c9cda0e8258f2e9d03944db78399287
-
 [Link do Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
