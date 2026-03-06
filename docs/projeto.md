@@ -22,11 +22,19 @@ Utilizamos as metodologias ágeis para documentar o escopo do projeto. Todas as 
 ---
 
 ## 🛠️ Arquitetura de Dados (DER)
-O arquivo `diagrama_er.png` contém a versão em alta resolução do modelo de dados
+O arquivo `diagrama_der.png` contém a versão em alta resolução do modelo de dados
 
-![Diagrama de Dados](<Projeto Doe+.png>)
+![Diagrama de Dados](<diagrama_der.png>)
 
 ---
 
 ## 🎨 Protótipos de Interface
-[Link do Figma](https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1)
+Dentro da pasta `imagens_prototipo` contém todas as imagens dos protótipos desenvolvidos
+
+![Tela Home](</projeto-web-semestre-it_girls/docs/imagens_prototipo/home.png>)
+![Tela Doação Alimentos](</projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_alimento.png>)
+![Tela Doação Roupa](</projeto-web-semestre-it_girls/docs/imagens_prototipo/doacao_roupa.png>)
+![Tela Solicitar Doação](</projeto-web-semestre-it_girls/docs/imagens_prototipo/solicitar_doacao.png>)
+![Tela Tipo Doação](</projeto-web-semestre-it_girls/docs/imagens_prototipo/tipo_doacao.png>)
+
+[Link do Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
