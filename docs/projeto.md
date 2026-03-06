@@ -31,4 +31,6 @@ O arquivo `diagrama_der.png` contém a versão em alta resolução do modelo de 
 ## 🎨 Protótipos de Interface
 Dentro da pasta `imagens_prototipo` contém todas as imagens dos protótipos desenvolvidos
 
-Aqui está o link do figma caso queira acessar também [Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
+[Tela Home](</projeto-web-semestre-it_girls/docs/imagens_prototipo/home.png>)
+
+Aqui está o link do figma caso queira acessar [Link do Figma](<https://www.figma.com/design/wqHDYAawj925f0l4qLOqbv/Doe-?node-id=0-1&t=D31Jdn61tGd2gp11-1>)
