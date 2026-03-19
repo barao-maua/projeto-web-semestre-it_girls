@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="min-h-screen bg-gray-50 flex flex-col items-center">
+    
+    <section class="w-full bg-[#D9D9D9] py-24 text-center">
+        <h1 class="text-5xl font-bold text-gray-800 tracking-tight">
+            O que você gostaria de doar?
+        </h1>
+    </section>
+
+    <section class="container mx-auto grid grid-cols-2 gap-12 mt-20 px-10">
+        
+        <article class="bg-white p-12 rounded-2xl shadow-lg border border-gray-100 text-center flex flex-col items-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Doar Alimento</h2>
+            <p class="text-gray-600 text-lg max-w-sm mb-12">
+                Doe alimentos dentro da validade e de preferência não perecíveis
+            </p>
+            <a href="#" class="mt-auto bg-gray-200 px-10 py-3 rounded-md font-semibold text-gray-700 hover:bg-gray-300">
+                Selecionar
+            </a>
+        </article>
+
+        <article class="bg-white p-12 rounded-2xl shadow-lg border border-gray-100 text-center flex flex-col items-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Doar Roupas</h2>
+            <p class="text-gray-600 text-lg max-w-sm mb-12">
+                Doe roupas em bom estado
+            </p>
+            <a href="{% url 'cadastro_roupa' %}" class="bg-gray-200 px-10 py-2 rounded-md font-semibold text-gray-700 hover:bg-gray-300 transition inline-block">
+                Selecionar
+            </a>
+        </article>
+
+    </section>
+
+    <div class="mt-20 mb-12">
+        <button class="bg-[#79B4FF] text-white px-10 py-3 rounded-md font-bold hover:bg-blue-500">
+            Preciso de Doação
+        </button>
+    </div>
+
+</main>
+{% endblock %}
