@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <section class="bg-[#D9D9D9] py-20 text-center">
+        <h1 class="text-5xl font-bold mb-4">Conectando com quem precisa</h1>
+        <p class="text-xl text-gray-700">Sua doação pode fazer a diferença na vida de alguém!</p>
+        
+        <div class="flex justify-center gap-6 mt-10">
+            <button class="bg-[#FFB366] px-12 py-4 rounded-md font-bold text-lg shadow-sm hover:brightness-95">Quero doar</button>
+            <button class="bg-[#79B4FF] px-12 py-4 rounded-md font-bold text-lg text-white shadow-sm hover:brightness-95">Preciso de doação</button>
+        </div>
+    </section>
+
+    <div class="container mx-auto flex gap-10 mt-12 px-6">
+        
+        <aside class="w-1/4 bg-white p-8 rounded-xl shadow-sm border border-gray-100 h-fit">
+            <h2 class="text-2xl font-bold text-center border-b pb-4 mb-8">Filtros</h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <label class="block mb-2 font-bold text-gray-600">Tipo de Item</label>
+                    <select class="w-full border-2 border-gray-200 p-3 rounded-md appearance-none bg-white">
+                        <option>Vestuário</option>
+                        <option>Alimentos</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-2 font-bold text-gray-600">Localização</label>
+                    <select class="w-full border-2 border-gray-200 p-3 rounded-md appearance-none bg-white">
+                        <option>Centro, Ribeirão Preto</option>
+                        <option>Vila Tibério</option>
+                    </select>
+                </div>
+                </div>
+        </aside>
+
+        <section class="w-3/4 grid grid-cols-2 gap-10">
+            
+            <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col items-center">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=400&h=250&auto=format&fit=crop" alt="Mantas" class="w-full h-48 object-cover">
+                <div class="p-8 w-full text-center">
+                    <h3 class="text-2xl font-bold mb-4">Mantas de Frio</h3>
+                    <div class="text-gray-600 space-y-1 mb-6">
+                        <p>Quantidade: 15 peças</p>
+                        <p>Localização: Centro, Ribeirão Preto</p>
+                    </div>
+                    <span class="bg-[#FFB366]/30 text-[#E67E22] px-4 py-1 rounded font-bold text-sm">Doando</span>
+                    <button class="w-full bg-[#79B4FF] text-white py-4 rounded-lg font-bold text-xl mt-6 hover:bg-blue-500 transition">Solicitar</button>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col items-center">
+                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=400&h=250&auto=format&fit=crop" alt="Alimentos" class="w-full h-48 object-cover">
+                <div class="p-8 w-full text-center">
+                    <h3 class="text-2xl font-bold mb-4">Cestas Básicas</h3>
+                    <div class="text-gray-600 space-y-1 mb-6">
+                        <p>Quantidade: 10 unidades</p>
+                        <p>Localização: Vila Tibério, Ribeirão Preto</p>
+                    </div>
+                    <span class="bg-[#79B4FF]/30 text-[#2980B9] px-4 py-1 rounded font-bold text-sm">Coletando</span>
+                    <button class="w-full bg-[#FFB366] text-white py-4 rounded-lg font-bold text-xl mt-6 hover:bg-orange-400 transition">Doar Agora</button>
+                </div>
+            </article>
+
+        </section>
+    </div>
+</main>
+{% endblock %}
