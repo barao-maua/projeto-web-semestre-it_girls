@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="min-h-screen bg-gray-50 py-16 px-6">
+    <h1 class="text-center text-5xl font-bold text-gray-800 mb-16">Cadastre seu Alimento</h1>
+
+    <aside class="max-w-3xl mx-auto bg-white p-16 rounded-2xl shadow-xl border border-gray-100">
+        <form class="space-y-10">
+            <div>
+                <label class="block text-xl font-medium text-gray-600 mb-3">O que você vai doar?</label>
+                <input type="text" placeholder="Ex: Arroz, Feijão, Macarrão" class="w-full border-2 border-gray-200 p-4 rounded-lg">
+            </div>
+
+            <div class="grid grid-cols-2 gap-10">
+                <div>
+                    <label class="block text-xl font-medium text-gray-600 mb-3">Quantidade (kg/unid)</label>
+                    <input type="text" placeholder="5kg" class="w-full border-2 border-gray-200 p-4 rounded-lg">
+                </div>
+                <div>
+                    <label class="block text-xl font-medium text-gray-600 mb-3">Data de Validade</label>
+                    <input type="date" class="w-full border-2 border-gray-200 p-4 rounded-lg bg-white">
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xl font-medium text-gray-600 mb-3">Localização para Retirada</label>
+                <input type="text" placeholder="Seu bairro ou CEP" class="w-full border-2 border-gray-200 p-4 rounded-lg">
+            </div>
+
+            <div class="pt-8 flex justify-center">
+                <button type="submit" class="bg-[#79B4FF] text-white px-16 py-4 rounded-lg font-bold text-2xl shadow-sm hover:brightness-95 transition">
+                    Publicar Alimento
+                </button>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="{% url 'selecao_tipo' %}" class="text-gray-400 hover:underline">← Voltar para seleção</a>
+            </div>
+        </form>
+    </aside>
+</main>
+{% endblock %}

@@ -10,3 +10,5 @@ def login_view(request):
     return render(request, 'login.html')
 def cadastro_usuario(request):
     return render(request, 'cadastro_usuario.html')
+def cadastro_alimento(request):
+    return render(request, 'cadastro_alimento.html')
