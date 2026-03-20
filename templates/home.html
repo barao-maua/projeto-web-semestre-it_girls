@@ -1,18 +1,37 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 <main>
-    <section class="bg-[#D9D9D9] py-20 text-center">
-        <h1 class="text-5xl font-bold mb-4">Conectando com quem precisa</h1>
-        <p class="text-xl text-gray-700">Sua doação pode fazer a diferença na vida de alguém!</p>
+  {% load static %}
+
+<section class="relative bg-cover bg-center bg-no-repeat py-20 px-6 text-center shadow-inner" style="background-image: url('{% static 'images/maosdoacao.png' %}');">
+    
+    <div class="absolute inset-0 bg-white/70"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
         
-        <div class="flex justify-center gap-6 mt-10">
-            <a href="{% url 'selecao_tipo_doacao' %}" class="bg-[#FFB366] px-10 py-4 rounded-md font-bold text-lg shadow-sm hover:brightness-95 inline-block text-center">
-    Quero doar
-</a>
-            <button class="bg-[#79B4FF] px-12 py-4 rounded-md font-bold text-lg text-white shadow-sm hover:brightness-95">Preciso de doação</button>
+        <h1 class="text-6xl font-extrabold text-gray-950 tracking-tighter mb-4 leading-tight">
+            Conectando com quem precisa
+        </h1>
+        
+        <p class="text-2xl text-gray-800 max-w-2xl mb-12">
+            Sua doação pode fazer a diferença na vida de alguém!
+        </p>
+
+        <div class="flex gap-10 mt-[-20px] pt-4"> 
+            
+            <a href="{% url 'selecao_tipo_doacao' %}" class="bg-[#FFB366] text-gray-950 px-10 py-4 rounded-xl font-extrabold text-xl shadow-md hover:brightness-95 transition">
+                Quero doar
+            </a>
+
+            <button class="bg-[#79B4FF] text-white px-10 py-4 rounded-xl font-extrabold text-xl shadow-md hover:brightness-95 transition">
+                Preciso de doação
+            </button>
+            
         </div>
-    </section>
+    </div>
+</section>
 
     <div class="container mx-auto flex gap-10 mt-12 px-6">
         
@@ -40,7 +59,7 @@
         <section class="w-3/4 grid grid-cols-2 gap-10">
             
             <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col items-center">
-                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=400&h=250&auto=format&fit=crop" alt="Mantas" class="w-full h-48 object-cover">
+                <img src="{% static 'images/mantadefrio.jpg' %}" alt="Mantas" class="w-full h-48 object-cover">
                 <div class="p-8 w-full text-center">
                     <h3 class="text-2xl font-bold mb-4">Mantas de Frio</h3>
                     <div class="text-gray-600 space-y-1 mb-6">
@@ -53,7 +72,7 @@
             </article>
 
             <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col items-center">
-                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=400&h=250&auto=format&fit=crop" alt="Alimentos" class="w-full h-48 object-cover">
+                <img src="{% static 'images/cestabasica.jpg' %}" alt="Alimentos" class="w-full h-48 object-cover">
                 <div class="p-8 w-full text-center">
                     <h3 class="text-2xl font-bold mb-4">Cestas Básicas</h3>
                     <div class="text-gray-600 space-y-1 mb-6">

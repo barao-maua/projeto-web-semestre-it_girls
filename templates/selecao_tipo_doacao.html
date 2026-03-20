@@ -1,12 +1,26 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
+<style>
+    /* Criamos o fundo aqui para o VS Code não dar erro de sintaxe */
+    .fundo-selecao-imagem {
+        background-image: url("{% static 'images/doar.jpg' %}"); /* Usei a mesma imagem da home, ou mude o nome aqui */
+    }
+</style>
+
 <main class="min-h-screen bg-gray-50 flex flex-col items-center">
     
-    <section class="w-full bg-[#D9D9D9] py-24 text-center">
-        <h1 class="text-5xl font-bold text-gray-800 tracking-tight">
-            O que você gostaria de doar?
-        </h1>
+    <section class="w-full relative bg-cover bg-center py-24 text-center fundo-selecao-imagem">
+        
+        <div class="absolute inset-0 bg-white/70"></div>
+
+        <div class="relative z-10">
+            <h1 class="text-5xl font-extrabold text-gray-900 tracking-tight">
+                O que você gostaria de doar?
+            </h1>
+            <p class="text-xl text-gray-700 mt-2">Escolha uma categoria para continuar</p>
+        </div>
     </section>
 
     <section class="container mx-auto grid grid-cols-2 gap-12 mt-20 px-10">
@@ -14,10 +28,10 @@
         <article class="bg-white p-12 rounded-2xl shadow-lg border border-gray-100 text-center flex flex-col items-center">
             <h2 class="text-4xl font-bold text-gray-900 mb-6">Doar Alimento</h2>
             <p class="text-gray-600 text-lg max-w-sm mb-12">
-                Doe alimentos dentro da validade e de preferência não perecíveis
+                Doe alimentos dentro da validade e não perecíveis
             </p>
-            <a href="{% url 'cadastro_alimento' %}" class="mt-auto bg-gray-200 px-10 py-3 rounded-md font-semibold text-gray-700 hover:bg-gray-300">
-            Selecionar
+            <a href="{% url 'cadastro_alimento' %}" class="mt-auto bg-[#FFB366] px-10 py-3 rounded-md font-semibold text-gray-700 hover:bg-gray-300 transition">
+                Selecionar
             </a>
         </article>
 
@@ -26,7 +40,7 @@
             <p class="text-gray-600 text-lg max-w-sm mb-12">
                 Doe roupas em bom estado
             </p>
-            <a href="{% url 'cadastro_roupa' %}" class="bg-gray-200 px-10 py-2 rounded-md font-semibold text-gray-700 hover:bg-gray-300 transition inline-block">
+            <a href="{% url 'cadastro_roupa' %}" class="mt-auto bg-[#79B4FF] px-10 py-3 rounded-md font-semibold text-gray-700 hover:bg-gray-300 transition">
                 Selecionar
             </a>
         </article>
@@ -34,7 +48,7 @@
     </section>
 
     <div class="mt-20 mb-12">
-        <button class="bg-[#79B4FF] text-white px-10 py-3 rounded-md font-bold hover:bg-blue-500">
+        <button class="bg-[#79B4FF] text-white px-10 py-3 rounded-md font-bold hover:bg-blue-500 shadow-md">
             Preciso de Doação
         </button>
     </div>
