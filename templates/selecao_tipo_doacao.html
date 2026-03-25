@@ -3,9 +3,8 @@
 
 {% block content %}
 <style>
-    /* Criamos o fundo aqui para o VS Code não dar erro de sintaxe */
     .fundo-selecao-imagem {
-        background-image: url("{% static 'images/doar.jpg' %}"); /* Usei a mesma imagem da home, ou mude o nome aqui */
+        background-image: url("{% static 'images/moes.jpg' %}");
     }
 </style>
 
@@ -13,13 +12,13 @@
     
     <section class="w-full relative bg-cover bg-center py-24 text-center fundo-selecao-imagem">
         
-        <div class="absolute inset-0 bg-white/70"></div>
+        <div class="absolute inset-0 bg-white/35"></div>
 
         <div class="relative z-10">
-            <h1 class="text-5xl font-extrabold text-gray-900 tracking-tight">
+            <h1 class="text-5xl font-extrabold text-black-900 tracking-tight">
                 O que você gostaria de doar?
             </h1>
-            <p class="text-xl text-gray-700 mt-2">Escolha uma categoria para continuar</p>
+            <p class="text-xl text-black-700 mt-2">Escolha uma categoria para continuar</p>
         </div>
     </section>
 
