@@ -1,0 +1,86 @@
+[
+  {
+    "model": "doacoes.categoria",
+    "pk": 1,
+    "fields": {
+      "nome": "Roupas",
+      "descricao": "Vestuário em geral",
+      "icone": "👕"
+    }
+  },
+  {
+    "model": "doacoes.categoria",
+    "pk": 2,
+    "fields": {
+      "nome": "Alimentos",
+      "descricao": "Alimentos não perecíveis",
+      "icone": "🥫"
+    }
+  },
+  {
+    "model": "doacoes.categoria",
+    "pk": 3,
+    "fields": {
+      "nome": "Eletrônicos",
+      "descricao": "Aparelhos eletrônicos usados",
+      "icone": "💻"
+    }
+  },
+  {
+    "model": "doacoes.categoria",
+    "pk": 4,
+    "fields": {
+      "nome": "Móveis",
+      "descricao": "Móveis e utensílios domésticos",
+      "icone": "🛋️"
+    }
+  },
+  {
+    "model": "doacoes.doacao",
+    "pk": 1,
+    "fields": {
+      "titulo": "Camisetas infantis tamanho 4",
+      "descricao": "Lote com 5 camisetas infantis em bom estado, tamanho 4 anos.",
+      "categoria": 1,
+      "doador_nome": "Maria Silva",
+      "doador_email": "maria@email.com",
+      "status": "disponivel",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP",
+      "criado_em": "2025-01-10T10:00:00Z",
+      "atualizado_em": "2025-01-10T10:00:00Z"
+    }
+  },
+  {
+    "model": "doacoes.doacao",
+    "pk": 2,
+    "fields": {
+      "titulo": "Notebook Dell Inspiron 2019",
+      "descricao": "Notebook funcionando, bateria boa, HD 500GB, 8GB RAM.",
+      "categoria": 3,
+      "doador_nome": "João Pereira",
+      "doador_email": "joao@email.com",
+      "status": "disponivel",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "criado_em": "2025-01-11T14:00:00Z",
+      "atualizado_em": "2025-01-11T14:00:00Z"
+    }
+  },
+  {
+    "model": "doacoes.doacao",
+    "pk": 3,
+    "fields": {
+      "titulo": "Caixa de macarrão e feijão",
+      "descricao": "10 pacotes de macarrão e 5 de feijão, todos dentro da validade.",
+      "categoria": 2,
+      "doador_nome": "Ana Costa",
+      "doador_email": "ana@email.com",
+      "status": "entregue",
+      "cidade": "Campinas",
+      "estado": "SP",
+      "criado_em": "2025-01-12T09:00:00Z",
+      "atualizado_em": "2025-01-12T09:00:00Z"
+    }
+  }
+]
