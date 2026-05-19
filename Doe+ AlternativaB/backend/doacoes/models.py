@@ -1,5 +1,4 @@
 from django.db import models
-##ORM
 
 class Categoria(models.Model):
     """
@@ -7,7 +6,7 @@ class Categoria(models.Model):
     """
     nome = models.CharField(max_length=100)
     descricao = models.TextField(blank=True)
-    icone = models.CharField(max_length=50, default='📦')  # emoji como ícone
+    icone = models.CharField(max_length=50, blank=True, default='')
 
     class Meta:
         verbose_name = 'Categoria'
@@ -52,7 +51,7 @@ class Doacao(models.Model):
     class Meta:
         verbose_name = 'Doação'
         verbose_name_plural = 'Doações'
-        ordering = ['-criado_em']  # Mais recentes primeiro
+        ordering = ['-criado_em']
 
     def __str__(self):
         return f"{self.titulo} ({self.doador_nome})"
